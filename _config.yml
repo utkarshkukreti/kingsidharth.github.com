@@ -1,2 +1,3 @@
-permalink: title
+permalink: /:title
 exclude: sass, config.rb, CNAME, Rakefile
+auto: true
