@@ -56,17 +56,21 @@
             </li>
             <li class='divider'></li>
             <li class='facebook'>
-              Facebook
+              <div class="fb-subscribe"
+              data-href="https://www.facebook.com/KingSidharth"
+              data-layout="button_count" data-show-faces="false" data-colorscheme="dark"
+              data-font="lucida grande" data-width="450"></div>
             </li>
             <li class='twitter'>
-              Twitter
+              <a href="https://twitter.com/kingsidharth" class="twitter-follow-button" data-show-count="false"
+              data-show-screen-name="false">Follow @kingsidharth</a>
             </li>
             <li class='gplus'>
-              Google+
+              <a href="https://plus.google.com/100630005600562803456/" rel="author">Google+</a>
             </li>
             <li class='divider'></li>
             <li class='copyright'>
-              &copy; 2009-2012.
+              <small>&copy; 2009-2012.</small>
             </li>
           </ul>
         </div>
@@ -79,5 +83,26 @@
       </div>
     </div>
     <!-- #content_area -->
+    <div id='fb-root'></div>
   </body>
+  <!-- body -->
+  <script>
+    (function(doc, script) {
+    var js,
+    fjs = doc.getElementsByTagName(script)[0],
+    add = function(url, id) {
+    if (doc.getElementById(id)) {return;}
+    js = doc.createElement(script);
+    js.src = url;
+    id && (js.id = id);
+    fjs.parentNode.insertBefore(js, fjs);
+    };
+    <!-- / Google Analytics -->
+    add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
+    <!-- / Facebook SDK -->
+    add('//connect.facebook.net/en_US/all.js', 'facebook-jssdk');
+    <!-- / Twitter SDK -->
+    add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+    }(document, 'script'));
+  </script>
 </html>

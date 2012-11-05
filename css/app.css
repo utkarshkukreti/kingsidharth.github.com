@@ -5820,9 +5820,15 @@ body {
   color: #fafafa;
 }
 
-/* line 14, ../sass/_style.sass */
+/* line 12, ../sass/_style.sass */
+#sidebar {
+  text-align: right;
+}
+
+/* line 15, ../sass/_style.sass */
 #logo {
   background: url("/images/king-sidharth.jpg") center center no-repeat;
+  color: transparent;
   display: block;
   width: 180px;
   height: 180px;
@@ -5839,12 +5845,12 @@ body {
   background-size: center;
 }
 
-/* line 25, ../sass/_style.sass */
+/* line 27, ../sass/_style.sass */
 .home {
   padding-top: 4em;
 }
 
-/* line 30, ../sass/_style.sass */
+/* line 32, ../sass/_style.sass */
 ul {
   list-style-type: square;
 }
