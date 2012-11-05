@@ -5873,8 +5873,11 @@ body {
 body ul.side-nav li.divider {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-
 /* line 43, ../sass/_style.sass */
-ul {
+body ul, body li, body ol {
+  list-style-position: inside;
+}
+/* line 45, ../sass/_style.sass */
+body ul {
   list-style-type: square;
 }
