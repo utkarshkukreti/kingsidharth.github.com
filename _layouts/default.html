@@ -25,9 +25,9 @@
     {% if page.background %}
     url('{{page.background}}') 
     {% else %}
-    url('/images/backgrounds/default.jpg')
+    url('{{site.url}}/images/backgrounds/default.jpg')
     {% endif %}
-     right center no-repeat; background-size: cover;">
+     right center fixed no-repeat; background-size: cover;">
     <div id='header_area'></div>
     <!-- #header_area -->
     <div id='content_area'>
