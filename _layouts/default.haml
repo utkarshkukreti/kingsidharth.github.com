@@ -10,12 +10,12 @@
 
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
-  %title King Sidharth 
+  %title {{ page.title }} 
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="css/app.css">
 
-  <script src="js/foundation/modernizr.foundation.js"></script>
   <script src="js/foundation/jquery.js"></script>  
+  <script src="js/foundation/app.js"></script>  
   <script src="js/scripts.js"></script>
  
   <link rel="icon" href="images/favicons/favicon.ico" type="image/x-icon" />
@@ -35,10 +35,15 @@
           %ul.side-nav
             %li.name
               //if homepage
+              {% if page.slug == 'home' %}
               %h1#logo King Sidharth
+              {% else %}
+              #logo King Sidharth
+              {% endif %}
             %li.divider
-            %li.active
-              %a{:href=>"/"} Home
+            <li data-magellan-arrival="home">
+            %a{:href=>"/"} Home
+            </li>
             %li
               %a{:href=>"/projects"} Projects
             %li
@@ -47,8 +52,9 @@
               %a{:href=>"/writings"} Writings
             %li
               %a{:href=>"/media-mentions"} Media Mentions
-            %li
-              %a{:href=>"/contact"} Contact
+            <li data-magellan-arrival="contact">
+            %a{:href=>"/contact"} Contact
+            </li>
             %li.divider
             %li.facebook
               Facebook
