@@ -4713,7 +4713,7 @@ table.hide-for-medium {
   /* Mobile 4-column Grid */
   /* line 200, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
   .row .mobile-one {
-    width: 33.33333% !important;
+    width: 50% !important;
     float: left;
     padding: 0 15px;
   }
@@ -4732,7 +4732,7 @@ table.hide-for-medium {
 
   /* line 200, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
   .row .mobile-two {
-    width: 66.66667% !important;
+    width: 100% !important;
     float: left;
     padding: 0 15px;
   }
@@ -4749,43 +4749,14 @@ table.hide-for-medium {
     padding: 0;
   }
 
-  /* line 200, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .row .mobile-three {
-    width: 100% !important;
-    float: left;
-    padding: 0 15px;
-  }
-  /* line 201, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .row .mobile-three:last-child {
-    float: right;
-  }
-  /* line 202, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .row .mobile-three.end {
-    float: left;
-  }
-  /* line 205, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .row.collapse .mobile-three {
-    padding: 0;
-  }
-
   /* line 210, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
   .push-one-mobile {
-    left: 33.33333%;
+    left: 50%;
   }
 
   /* line 211, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
   .pull-one-mobile {
-    right: 33.33333%;
-  }
-
-  /* line 210, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .push-two-mobile {
-    left: 66.66667%;
-  }
-
-  /* line 211, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_mqueries.scss */
-  .pull-two-mobile {
-    right: 66.66667%;
+    right: 50%;
   }
 
   /* Block Grids --- */
