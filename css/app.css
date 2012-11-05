@@ -5862,16 +5862,17 @@ body {
 @media only screen and (max-width: 700px) {
   /* line 35, ../sass/_style.sass */
   #sidebar {
+    background: url("/images/backgrounds/highlight.png") left top no-repeat;
     text-align: center;
     width: 100%;
   }
-  /* line 38, ../sass/_style.sass */
+  /* line 39, ../sass/_style.sass */
   #sidebar .side-nav {
     position: relative;
     width: 100%;
   }
 }
-/* line 42, ../sass/_style.sass */
+/* line 43, ../sass/_style.sass */
 #logo {
   background: url("/images/logo.png") center center no-repeat;
   color: transparent;
@@ -5891,40 +5892,40 @@ body {
   background-size: cover;
 }
 
-/* line 53, ../sass/_style.sass */
+/* line 54, ../sass/_style.sass */
 #content {
   background: url("/images/backgrounds/highlight.png") right top no-repeat;
 }
 
 @media only screen and (max-width: 700px) {
-  /* line 57, ../sass/_style.sass */
+  /* line 58, ../sass/_style.sass */
   #content {
     width: 90%;
   }
 }
-/* line 61, ../sass/_style.sass */
+/* line 62, ../sass/_style.sass */
 .copyright a {
   display: inline;
 }
 
-/* line 65, ../sass/_style.sass */
+/* line 66, ../sass/_style.sass */
 .home {
   padding-top: 4em;
 }
 
-/* line 70, ../sass/_style.sass */
+/* line 71, ../sass/_style.sass */
 body ul.side-nav li.divider {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* line 72, ../sass/_style.sass */
+/* line 73, ../sass/_style.sass */
 body ul, body li, body ol {
   list-style-position: inside;
 }
-/* line 74, ../sass/_style.sass */
+/* line 75, ../sass/_style.sass */
 body ul {
   list-style-type: square;
 }
-/* line 76, ../sass/_style.sass */
+/* line 77, ../sass/_style.sass */
 body h2 {
   font-size: 20px;
   letter-spacing: 1px;
