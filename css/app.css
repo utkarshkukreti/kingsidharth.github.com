@@ -5852,8 +5852,8 @@ body {
   color: transparent;
   display: block;
   width: 60px;
-  margin: 0;
   height: 60px;
+  margin: 0;
   text-indent: -9999px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -5872,19 +5872,24 @@ body {
 }
 
 /* line 39, ../sass/_style.sass */
+.copyright a {
+  display: inline;
+}
+
+/* line 43, ../sass/_style.sass */
 .home {
   padding-top: 4em;
 }
 
-/* line 44, ../sass/_style.sass */
+/* line 48, ../sass/_style.sass */
 body ul.side-nav li.divider {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* line 46, ../sass/_style.sass */
+/* line 50, ../sass/_style.sass */
 body ul, body li, body ol {
   list-style-position: inside;
 }
-/* line 48, ../sass/_style.sass */
+/* line 52, ../sass/_style.sass */
 body ul {
   list-style-type: square;
 }
