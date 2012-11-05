@@ -5821,7 +5821,7 @@ table.hide-for-medium {
 
 /* line 8, ../sass/_style.sass */
 body {
-  background: url("/images/backgrounds/doon-2012-1.jpg") center center #333333 no-repeat;
+  background: center center #333333 no-repeat;
   color: #fafafa;
   -webkit-background-size: cover;
   -moz-background-size: cover;
