@@ -20,6 +20,24 @@ body
 
 #sidebar
   text-align: right
+  .side-nav
+    position: fixed
+    top: 10px
+    left: 15px
+    width: 201px
+
+@media only screen and (max-width: 767px)
+  #sidebar
+    .side-nav
+      width: 150px
+
+@media only screen and (max-width: 700px)
+  #sidebar
+    text-align: center
+    width: 100%
+    .side-nav
+      position: relative
+      width: 100%
 
 #logo
   background: url('/images/logo.png') center center no-repeat
@@ -34,6 +52,10 @@ body
 
 #content
   background: url('/images/backgrounds/highlight.png') right top no-repeat
+
+@media only screen and (max-width: 700px)
+  #content
+    width: 90%
 
 .copyright
   a
@@ -51,5 +73,8 @@ body
     list-style-position: inside
   ul
     list-style-type: square
+  h2
+    font-size: 20px
+    letter-spacing: 1px
 
 
