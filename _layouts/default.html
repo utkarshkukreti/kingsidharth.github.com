@@ -31,6 +31,7 @@
      <meta property="profile:last_name"       content="Sidharth">
      <meta property="profile:gender"          content="male">
      <meta property="fb:profile_id"           content="kingsidharth">    
+     <meta property="app_id"                  content="171634969647127">
     {% endif %}
   </head>
   <body style="background: url('/images/backgrounds/{{page.background}}') right center fixed no-repeat; 
@@ -71,10 +72,8 @@
               <li class='divider'></li>
               <!--social media -->
               <li class='facebook'>
-                <div class="fb-subscribe"
-                data-href="https://www.facebook.com/KingSidharth"
-                data-layout="button_count" data-show-faces="false" data-colorscheme="dark"
-                data-font="lucida grande" data-width="450"></div>
+                <div id='fb-root'></div>
+                <div class="fb-subscribe" data-href="https://www.facebook.com/kingsidharth" data-layout="button_count" data-show-faces="false" data-font="lucida grande" data-width="450"></div>
               </li>
               <li class='twitter'>
                 <a href="https://twitter.com/kingsidharth" class="twitter-follow-button" data-show-count="false"
@@ -123,15 +122,12 @@
         id && (js.id = id);
         fjs.parentNode.insertBefore(js, fjs);
       };
-      <!-- / Google Analytics -->
-      add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
       <!-- / Facebook SDK -->
-      add('//connect.facebook.net/en_US/all.js', 'facebook-jssdk');
+      add('//connect.facebook.net/en_GB/all.js#xfbml=1&appId=171634969647127', 'facebook-jssdk');
       <!-- / Twitter SDK -->
       add('//platform.twitter.com/widgets.js', 'twitter-wjs');
     }(document, 'script')); 
   </script>
-  <div id='fb-root'></div>
   
   </body>
   <!-- body -->
